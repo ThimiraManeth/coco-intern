@@ -1,0 +1,54 @@
+.literature-survey-topic h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.literature-survey-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .images-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .images-container img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 100px;
+  }
+  
+  .paragraph-container {
+    flex-grow: 1;
+  }
+  
+  .smaller-font {
+    font-size: 20px;
+  }
+  
+  .references-container {
+    margin-top: 20px;
+  }
+  .references-container .larger-font p {
+    font-size: 20px;
+  }
+
+  .references-container .smaller-font {
+    font-size: 12px;
+  }
+  
+  .references-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .references-list .smaller-font {
+    margin-bottom: 5px;
+  }
+  

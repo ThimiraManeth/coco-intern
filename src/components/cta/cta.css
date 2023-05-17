@@ -1,0 +1,20 @@
+.coco__cta-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coco__cta-image img{
+    width: 50%;
+    height: 50%;
+    margin-right: 50%;
+
+
+}
+.coco__cta h1{
+    margin-left: 10rem;
+    font-size: 30px;
+}
+.coco__cta-para p {
+    margin-left: 50%; 
+}
