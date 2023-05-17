@@ -22,9 +22,9 @@ function Navbar() {
           <a href="#home" className="nav-link">Home</a>
         </li>
         <li className="nav-item">
-          <button className="nav-link-button" onClick={toggleProjectScope}>
+          <span className="nav-link-button" onClick={toggleProjectScope}>
             Project Scope
-          </button>
+          </span>
           {showProjectScope && (
             <ul className="dropdown-menu">
               <li>
@@ -52,9 +52,9 @@ function Navbar() {
           <a href="/milestones" className="nav-link">Milestones</a>
         </li>
         <li className="nav-item">
-          <button className="nav-link-button" onClick={toggleDownloads}>
+          <span className="nav-link-button" onClick={toggleDownloads}>
             Downloads
-          </button>
+          </span>
           {showDownloads && (
             <ul className="dropdown-menu">
               

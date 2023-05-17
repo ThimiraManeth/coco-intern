@@ -3,7 +3,12 @@
     margin-bottom: 40px;
     margin-top: 20px;
     margin-left: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
+
 
 .literature-survey-container {
     display: flex;
